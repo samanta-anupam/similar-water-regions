@@ -8,3 +8,9 @@ Within each tile, we counted the area of surface water lost permanently within e
 Using these feature vector, we performed a k means clustering. Using elbow analysis, we found a k of size 10. Given any coordinates, it could easily tell the coordinates that have similar water trends using nearest neighbor search.  
 
 We used pyspark, jupyter notebook and numpy to do this analysis. Our final results are the top 10 regions with coordinates that show similar trends in surface water loss/water inundated regions.
+
+
+References:
+
+Dataset:
+Jean-Francois Pekel, Andrew Cottam, Noel Gorelick, Alan S. Belward, High-resolution mapping of global surface water and its long-term changes. Nature 540, 418-422 (2016). (doi:10.1038/nature20584)
